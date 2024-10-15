@@ -1,0 +1,55 @@
+body {
+  background-image: url(../Bilder/images/watercolor-navy-blue-and-sand-beige-brush-on-white-paper-textured-background-vector.jpg);
+  background-attachment: fixed;
+}
+
+.page-title {
+  padding-top: 70px;
+  text-align: center;
+  text-decoration: underline;
+  color: #010820;
+  font-size: 2rem;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 50px;
+  padding: 50px;
+  animation: fadeInGallery 1.5s ease-out;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 400px;
+  height: 550px;
+  object-fit: cover;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.8);
+}
+
+@keyframes fadeInGallery {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery img {
+    max-width: 300px;
+    min-height: 500px;
+  }
+}

@@ -1,0 +1,131 @@
+.main-content {
+    background: url(../Bilder/images/2027-Innovation-3x2-Magazine-Article-Landscape-1688x1126-72ppi-2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.welcome-section {
+    height: 50vh;
+    text-align: center;
+    color: #010820;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.welcome-section h1 {
+    margin-bottom: 8px;
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 550;
+}
+
+.welcome-section p {
+    padding: 8px;
+    font-size: 1.5rem;
+}
+
+.contact-button {
+    background-color: rgb(54, 54, 54);
+    color: white;
+    padding: 15px 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-button:hover {
+    background-color: grey;
+}
+
+.about-us {
+    padding: 350px 50px;
+    text-align: center;
+    text-emphasis: initial;
+}
+
+.about-us h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #010820;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about-us p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.services {
+    background-color: rgb(255, 255, 255, 0.5);
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: black;
+}
+
+.service-container {
+    background-color: #fff;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 3px 6px 6px 6px rgba(0, 0, 0, 0.4);
+    display: inline-block;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.service-container h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.service-container p {
+    font-size: 1rem;
+}
+
+.testimonial {
+    padding: 60px 20px;
+    background-color: #010820;
+    color: white;
+    text-align: center;
+}
+
+.testimonial h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+blockquote {
+    font-size: 1.2rem;
+    font-style: italic;
+    line-height: 1.8;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .about-us p {
+        max-width: 100%; 
+        font-size: 1rem; 
+    }
+
+    .service-container {
+        width: 100%; 
+        margin: 20px 0;
+    }
+
+    .welcome-section h1 {
+        font-size: 2rem; 
+    }
+}

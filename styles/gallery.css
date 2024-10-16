@@ -53,4 +53,8 @@ body {
     max-width: 300px;
     min-height: 500px;
   }
+
+  .page-title {
+    font-size: 1.5rem;
+  }
 }

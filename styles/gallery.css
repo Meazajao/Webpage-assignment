@@ -1,6 +1,7 @@
 body {
   background-image: url(../Bilder/images/watercolor-navy-blue-and-sand-beige-brush-on-white-paper-textured-background-vector.jpg);
   background-attachment: fixed;
+  font-family: "Poppins", sans-serif;
 }
 
 .page-title {

@@ -1,3 +1,7 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
 .main-content {
     background: url(../Bilder/images/2027-Innovation-3x2-Magazine-Article-Landscape-1688x1126-72ppi-2.jpg);
     background-attachment: fixed;
@@ -19,7 +23,6 @@
 .welcome-section h1 {
     margin-bottom: 8px;
     font-size: 3rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 550;
 }
 
@@ -35,6 +38,7 @@
     font-size: 1rem;
     cursor: pointer;
     border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 .contact-button:hover {
@@ -48,7 +52,6 @@
 }
 
 .about-us h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2.5rem;
     margin-bottom: 20px;
     color: #010820;
@@ -56,7 +59,6 @@
 }
 
 .about-us p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.2rem;
     line-height: 1.8;
     max-width: 50%;
@@ -115,6 +117,11 @@ blockquote {
 }
 
 @media (max-width: 768px) {
+    .main-content {
+        padding-top: 70px;
+    }
+
+
     .about-us p {
         max-width: 100%; 
         font-size: 1rem; 
@@ -127,5 +134,6 @@ blockquote {
 
     .welcome-section h1 {
         font-size: 2rem; 
+        padding: 10px;
     }
 }

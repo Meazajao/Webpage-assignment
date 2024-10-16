@@ -1,6 +1,7 @@
 body {
   background-image: url(../Bilder/images/watercolor-navy-blue-and-sand-beige-brush-on-white-paper-textured-background-vector.jpg);
   background-attachment: fixed;
+  font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -12,8 +13,8 @@ body {
   grid-template-columns: repeat(2, 1fr); 
   flex: 1;
   width: 60vw;
-  background-color: rgba(255, 255, 255, 0.8);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 1);
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
   margin: 150px auto;
   animation: slideIn 1s ease-out;
 }

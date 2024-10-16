@@ -25,7 +25,6 @@ body {
   z-index: 1000;
   display: flex;
   justify-content: space-between;
-  border-bottom: 2px solid white ;
 }
 
 
@@ -96,7 +95,6 @@ a {
   color: white;
   text-align: center;
   padding: 8px;
-  border-top: 2px solid white ;
 }
 
 

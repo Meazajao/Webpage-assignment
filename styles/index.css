@@ -3,21 +3,23 @@ body {
 }
 
 .main-content {
-    background: url(../Bilder/images/2027-Innovation-3x2-Magazine-Article-Landscape-1688x1126-72ppi-2.jpg);
+    background: url(../images/2027-Innovation-3x2-Magazine-Article-Landscape-1688x1126-72ppi-2.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
 }
 
 .welcome-section {
-    height: 50vh;
+    padding: 70px;
     text-align: center;
-    color: #010820;
-    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    background-color: rgba(255, 255, 255, 0.9);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 20px;
+    border-bottom: 2px solid black;
 }
 
 .welcome-section h1 {
@@ -32,7 +34,7 @@ body {
 }
 
 .contact-button {
-    background-color: rgb(54, 54, 54);
+    background-color: #1abc9c;
     color: white;
     padding: 15px 30px;
     font-size: 1rem;
@@ -46,9 +48,8 @@ body {
 }
 
 .about-us {
-    padding: 350px 50px;
+    padding: 70px 50px;
     text-align: center;
-    text-emphasis: initial;
 }
 
 .about-us h2 {
@@ -66,9 +67,10 @@ body {
 }
 
 .services {
-    background-color: rgb(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.9);
     padding: 60px 20px;
     text-align: center;
+    border-top: 2px solid black;
 }
 
 .services h2 {
@@ -85,6 +87,7 @@ body {
     display: inline-block;
     justify-content: space-around;
     margin: 50px;
+    border-radius: 5px;
 }
 
 .service-container h3 {
@@ -120,7 +123,6 @@ blockquote {
     .main-content {
         padding-top: 70px;
     }
-
 
     .about-us p {
         max-width: 100%; 

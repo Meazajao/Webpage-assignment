@@ -135,6 +135,10 @@ blockquote {
         margin: 20px 0;
     }
 
+    .welcome-section {
+        margin: 0;
+    }
+
     .welcome-section h1 {
         font-size: 2rem; 
         padding: 10px;

@@ -90,5 +90,22 @@ body {
 @media (max-width: 768px) {
   .container {
     grid-template-columns: 1fr;
+    width: 90vw; 
+    margin: 100px auto;
   }
+
+  .contact-form {
+    padding: 20px;
+  }
+
+  .contact-form h2 {
+    font-size: 1.5rem; 
+  }
+
+  .contact-form input, 
+  .contact-form select, 
+  .contact-form textarea {
+    font-size: 14px; 
+  }
+  
 }

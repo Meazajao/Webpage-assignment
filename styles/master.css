@@ -12,6 +12,10 @@ body {
   height: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -76,7 +80,7 @@ body {
   opacity: 1;
 }
 
-footer {
+.footer {
   background: linear-gradient(to right, #141e30, #243b55);
   color: #fff;
   padding: 40px 20px;
